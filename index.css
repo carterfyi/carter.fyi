@@ -1,5 +1,5 @@
 body {
-  background-color: #000022;
+  background-color: #000520;
   font-family: "Source";
 }
 main {
@@ -26,9 +26,17 @@ main > * {
 .subtitle {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
-    font-style: italic;
 }
 
+.cornerfish {
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  stroke: white;
+  max-height: 10vh;
+  max-width: 10vw;
+  min-width: 50px;
+}
 /*
 font-family: 'Anonymous Pro', monospace;
 font-family: 'Caveat', cursive;
