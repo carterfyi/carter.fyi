@@ -11,6 +11,10 @@ main {
   justify-content: center;
 }
 
+.links a {
+  color: white;
+}
+
 main > * {
   color: white;
   text-align: center;
@@ -37,6 +41,7 @@ main > * {
   max-width: 10vw;
   min-width: 50px;
 }
+
 /*
 font-family: 'Anonymous Pro', monospace;
 font-family: 'Caveat', cursive;
